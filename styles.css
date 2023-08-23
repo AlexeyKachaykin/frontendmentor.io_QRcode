@@ -1,0 +1,42 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    padding: 18px;
+    border-radius: 17px;
+    text-align: center;
+    width: 375px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 17px;
+}
+
+h2 {
+    color: hsl(218, 44%, 22%);
+    margin-top: 28px;
+    font-size: 23px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    font-size: 18px;
+}
+
+/* Desktop styles */
